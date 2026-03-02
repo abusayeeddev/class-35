@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+
+@theme {
+  --font-OpenSans: "Open Sans", sans-serif;
+  --font-Paprika: "Paprika", system-ui;
+  --color-primary: #8454F5;
+}
