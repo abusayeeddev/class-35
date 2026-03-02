@@ -4,7 +4,8 @@ import Flex from "../common/Flex";
 import { Link } from "react-router-dom";
 import Buttos from "../common/Buttos";
 import { HiArrowCircleRight } from "react-icons/hi";
-import footerImg from "../../assets/Logo.png";
+import Images from "../common/Images";
+import headerLogo from "/src/assets/Logo.png";
 
 function Header() {
   return (
@@ -14,7 +15,7 @@ function Header() {
           <div className="w-[28%]">
             
             <Link to={"/"}>
-              <Images imgsrc={footerImg} />
+              <Images imgsrc={headerLogo}/>
             </Link>
           </div>
           <div className="">
